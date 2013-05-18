@@ -7,4 +7,4 @@ build:
             code: bundle exec rspec
 deploy:
     steps:
-        heroku-deploy
+        - heroku-deploy
